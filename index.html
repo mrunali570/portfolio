@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mrunali Patil — Computer Science Engineering Student, Software Developer & Data Analyst. Portfolio showcasing projects, experience, skills, and certifications.">
+  <title>Mrunali Patil | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ─── HEADER ─────────────────────────────────────────── -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#home" class="logo">M<span>P</span></a>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home"            class="nav-link active">Home</a></li>
+          <li><a href="#about"           class="nav-link">About</a></li>
+          <li><a href="#process"         class="nav-link">Process</a></li>
+          <li><a href="#experience"      class="nav-link">Experience</a></li>
+          <li><a href="#education"       class="nav-link">Education</a></li>
+          <li><a href="#projects"        class="nav-link">Projects</a></li>
+          <li><a href="#skills"          class="nav-link">Skills</a></li>
+          <li><a href="#certifications"  class="nav-link">Certifications</a></li>
+          <li><a href="#achievements"    class="nav-link">Achievements</a></li>
+          <li><a href="#contact"         class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-toggle" id="nav-toggle"><i class="fa-solid fa-bars-staggered"></i></div>
+    </div>
+  </header>
+
+  <!-- ─── 1. HERO ──────────────────────────────────────────── -->
+  <section id="home" class="hero dark-section">
+    <div class="container hero-inner">
+
+      <!-- Left content -->
+      <div class="hero-side reveal">
+        <p class="hero-eyebrow">Hello, I'm</p>
+        <h1 class="hero-name">Mrunali Patil</h1>
+        <h2 class="hero-tagline">
+          <strong>Software Developer</strong> &amp; <strong>Data Analyst</strong><br>
+          Computer Science Engineering Student
+        </h2>
+        <p class="hero-desc">
+          I'm a CSE student (2026 batch) with a strong foundation in Python, full-stack web development, and data analytics. I've built AI-powered platforms, a gesture-controlled drawing app, and Chrome extensions — while gaining hands-on cloud and analytics internship experience. Let's build something great together.
+        </p>
+        <div class="hero-actions">
+          <a href="#about"   class="btn btn-amber">About Me <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#contact" class="btn btn-outline-amber">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/mrunali570"                    target="_blank" class="social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/mrunali-patil-157168250" target="_blank" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:mrunalipatil9650@gmail.com"                             class="social-btn" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <!-- Right — profile photo -->
+      <div class="profile-wrap reveal">
+        <div class="profile-frame">
+          <img src="mypassportpic.jpeg" alt="Mrunali Patil" class="profile-frame-img">
+          <div class="profile-frame-deco"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── 2. ABOUT ME ──────────────────────────────────────── -->
+  <section id="about" class="light-section section-pad">
+    <div class="container">
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="about-grid">
+
+        <!-- Left: bio + mission/vision -->
+        <div class="reveal">
+          <p class="about-bio">
+            I'm Mrunali Patil, a final-year B.Tech Computer Science Engineering student at Sanjeevan Group of Institutions, Panhala, graduating in 2026 with a CGPA of 8.18. My technical foundation spans Python, Java, JavaScript, and SQL, with hands-on expertise in React.js, Node.js, MongoDB, Django, Flask, and FastAPI for full-stack development, as well as Power BI, Tableau, and Excel for data analytics and reporting. I've completed internships in both cloud computing (AWS) and data analytics, where I cleaned, analyzed, and visualized real datasets to support business decisions. What sets me apart is my versatility — I'm equally comfortable architecting a full-stack application as I am uncovering trends in a dataset and presenting them clearly to stakeholders.
+          </p>
+          <div class="mv-grid">
+            <div class="mv-card reveal">
+              <div class="mv-icon"><i class="fa-solid fa-bullseye"></i></div>
+              <h3>Mission</h3>
+              <p>"To build technology that solves real problems — writing clean, efficient code while using data to drive smarter decisions."</p>
+            </div>
+            <div class="mv-card reveal">
+              <div class="mv-icon"><i class="fa-regular fa-compass"></i></div>
+              <h3>Vision</h3>
+              <p>"To grow into a well-rounded software and data professional who bridges the gap between engineering and business insight."</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: quick-links -->
+        <div class="quick-panel reveal">
+          <h3>Explore My Profile</h3>
+          <p>Jump directly to specific details of my journey:</p>
+          <div class="quick-links">
+            <a href="#experience"     class="quick-link"><i class="fa-solid fa-briefcase"></i> Work Experience</a>
+            <a href="#education"      class="quick-link"><i class="fa-solid fa-graduation-cap"></i> Education</a>
+            <a href="#projects"       class="quick-link"><i class="fa-solid fa-code-branch"></i> Projects</a>
+            <a href="#skills"         class="quick-link"><i class="fa-solid fa-gears"></i> Core Skills</a>
+            <a href="#certifications" class="quick-link"><i class="fa-solid fa-certificate"></i> Certifications</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── 3. PROCESS ──────────────────────────────────────── -->
+  <section id="process" class="dark-section section-pad">
+    <div class="container">
+      <h2 class="section-title reveal">My Process</h2>
+      <p class="section-subtitle reveal">How I approach every project — from idea to deployment</p>
+      <div class="process-steps">
+
+        <div class="process-step reveal">
+          <div class="step-bubble"><i class="fa-solid fa-magnifying-glass"></i></div>
+          <p class="step-num">Step 01</p>
+          <p class="step-title">Plan</p>
+          <p class="step-desc">Understand the problem, define requirements, and map out a clear project roadmap before touching any code.</p>
+        </div>
+
+        <div class="process-step reveal">
+          <div class="step-bubble"><i class="fa-solid fa-pen-ruler"></i></div>
+          <p class="step-num">Step 02</p>
+          <p class="step-title">Design</p>
+          <p class="step-desc">Wireframe the solution, pick the right tech stack, and design system architecture for scalability.</p>
+        </div>
+
+        <div class="process-step reveal">
+          <div class="step-bubble"><i class="fa-solid fa-code"></i></div>
+          <p class="step-num">Step 03</p>
+          <p class="step-title">Build</p>
+          <p class="step-desc">Write clean, modular, well-documented code following best practices and design patterns.</p>
+        </div>
+
+        <div class="process-step reveal">
+          <div class="step-bubble"><i class="fa-solid fa-vial"></i></div>
+          <p class="step-num">Step 04</p>
+          <p class="step-title">Test</p>
+          <p class="step-desc">Debug, review edge cases, validate data flows, and ensure quality across devices and environments.</p>
+        </div>
+
+        <div class="process-step reveal">
+          <div class="step-bubble"><i class="fa-solid fa-rocket"></i></div>
+          <p class="step-num">Step 05</p>
+          <p class="step-title">Deploy</p>
+          <p class="step-desc">Ship to production with performance, security, and maintainability in mind. Iterate based on feedback.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── 4. EXPERIENCE ────────────────────────────────────── -->
+  <section id="experience" class="light-section section-pad">
+    <div class="container">
+      <h2 class="section-title reveal">Work Experience</h2>
+      <div class="timeline">
+
+        <!-- Card 1 -->
+        <div class="tl-item card-light reveal">
+          <div class="tl-marker">
+            <div class="tl-dot"><i class="fa-solid fa-cloud"></i></div>
+          </div>
+          <div class="tl-body">
+            <div class="tl-meta">
+              <span class="badge badge-indigo">Internship</span>
+              <span class="tl-duration"><i class="fa-regular fa-calendar"></i> Aug 2025 – Sep 2025</span>
+            </div>
+            <h3 class="tl-role">Cloud Computing Intern</h3>
+            <h4 class="tl-company">SYGNIUS Infotech</h4>
+            <p class="tl-sub">Key Responsibilities</p>
+            <ul class="tl-list">
+              <li>Received hands-on training in AWS and Microsoft Azure cloud platforms.</li>
+              <li>Worked with core cloud concepts including IaaS, PaaS, SaaS, virtual machines, storage, and networking.</li>
+              <li>Gained understanding of deployment workflows and environment configuration.</li>
+              <li>Practiced setting up and managing basic cloud infrastructure.</li>
+            </ul>
+            <p class="tl-sub">Key Achievements</p>
+            <ul class="tl-ach">
+              <li><i class="fa-solid fa-circle-check"></i> Completed a structured cloud training program covering 2 major platforms (AWS & Azure).</li>
+              <li><i class="fa-solid fa-circle-check"></i> Gained working knowledge of core cloud service models within a 2-month internship.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="tl-item card-light reveal">
+          <div class="tl-marker">
+            <div class="tl-dot"><i class="fa-solid fa-chart-line"></i></div>
+          </div>
+          <div class="tl-body">
+            <div class="tl-meta">
+              <span class="badge badge-indigo">Internship</span>
+              <span class="tl-duration"><i class="fa-regular fa-calendar"></i> 2025</span>
+            </div>
+            <h3 class="tl-role">Data Analytics Intern</h3>
+            <h4 class="tl-company">Novi Tech</h4>
+            <p class="tl-sub">Key Responsibilities</p>
+            <ul class="tl-list">
+              <li>Performed data cleaning, exploratory data analysis (EDA), and visualization to support business decisions.</li>
+              <li>Used Python (Pandas, NumPy) and Excel to analyze datasets and identify trends and patterns.</li>
+              <li>Created dashboards and reports to present insights clearly to stakeholders.</li>
+              <li>Collaborated with team members to translate raw data into actionable business recommendations.</li>
+            </ul>
+            <p class="tl-sub">Key Achievements</p>
+            <ul class="tl-ach">
+              <li><i class="fa-solid fa-circle-check"></i> Delivered analysis-ready dashboards that improved clarity of reporting for stakeholder reviews.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Identified key trends across multiple datasets, supporting faster, data-backed decision-making.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── 5. EDUCATION ────────────────────────────────────── -->
+  <section id="education" class="dark-section section-pad">
+    <div class="container">
+      <h2 class="section-title reveal">Education</h2>
+      <div class="edu-grid">
+
+        <!-- Card 1 -->
+        <div class="card-dark reveal">
+          <div class="edu-card-inner">
+            <div class="edu-top">
+              <div class="edu-icon-box"><i class="fa-solid fa-graduation-cap"></i></div>
+              <span class="edu-years">2023 – 2026</span>
+            </div>
+            <h3 class="edu-degree">B.Tech in Computer Science Engineering</h3>
+            <h4 class="edu-school">Sanjeevan Group of Institutions, Panhala</h4>
+            <p class="edu-mode-tag">Full-time</p>
+            <div class="edu-score">
+              <span class="edu-score-lbl">CGPA</span>
+              <span class="edu-score-val">8.18</span>
+            </div>
+            <div class="edu-hl">
+              <h5>Key Highlights</h5>
+              <ul>
+                <li>Core focus on DSA, OOP, DBMS, and full-stack development.</li>
+                <li>Built multiple real-world projects spanning AI, web development, and cloud computing.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card-dark reveal">
+          <div class="edu-card-inner">
+            <div class="edu-top">
+              <div class="edu-icon-box"><i class="fa-solid fa-school"></i></div>
+              <span class="edu-years">2020 – 2023</span>
+            </div>
+            <h3 class="edu-degree">Diploma in CSE / Electronics & Telecommunication</h3>
+            <h4 class="edu-school">DKTE's Yashwantrao Chavan Polytechnic, Ichalkaranji</h4>
+            <p class="edu-mode-tag">Full-time</p>
+            <div class="edu-score">
+              <span class="edu-score-lbl">Percentage</span>
+              <span class="edu-score-val">79.19%</span>
+            </div>
+            <div class="edu-hl">
+              <h5>Key Highlights</h5>
+              <ul>
+                <li>Built solid foundational knowledge in programming, electronics, and core engineering concepts.</li>
+                <li>Strong academic performance enabling a smooth transition to computer science specialization.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── 6. PROJECTS ──────────────────────────────────────── -->
+  <section id="projects" class="light-section section-pad">
+    <div class="container">
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="proj-filters reveal">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+        <button class="filter-btn" data-filter="vision">Computer Vision</button>
+        <button class="filter-btn" data-filter="extension">Extensions</button>
+        <button class="filter-btn" data-filter="analytics">Data & Cloud</button>
+      </div>
+      <div class="proj-grid">
+
+        <!-- P1 -->
+        <div class="proj-card card-light reveal" data-category="fullstack">
+          <div class="proj-top">
+            <span class="proj-type"><i class="fa-solid fa-code"></i> Full-Stack Web App</span>
+            <span>2025</span>
+          </div>
+          <h3 class="proj-title">AI-Powered Personal Finance Platform (Piggy Bank AI)</h3>
+          <p class="proj-desc">A full-stack multi-user financial platform with React.js and Node.js, featuring role-based access control and an AI chatbot for personalized financial guidance.</p>
+          <div class="proj-outcomes">
+            <h4>Key Outcomes</h4>
+            <ul>
+              <li>Built secure, role-based access for multiple user types.</li>
+              <li>Integrated OpenAI API to deliver personalized financial recommendations.</li>
+              <li>Designed robust backend workflows for secure data handling.</li>
+              <li>Ensured smooth, responsive user interaction across the platform.</li>
+            </ul>
+          </div>
+          <div class="proj-tags">
+            <span>Python</span><span>React.js</span><span>Node.js</span><span>MongoDB</span><span>OpenAI API</span>
+          </div>
+        </div>
+
+        <!-- P2 -->
+        <div class="proj-card card-light reveal" data-category="vision">
+          <div class="proj-top">
+            <span class="proj-type"><i class="fa-solid fa-eye"></i> Computer Vision App</span>
+            <span>2025</span>
+          </div>
+          <h3 class="proj-title">Air Canvas — Real-Time Gesture-Based Drawing Application</h3>
+          <p class="proj-desc">A real-time, gesture-based drawing application enabling touchless interaction using hand-tracking built with OpenCV and MediaPipe.</p>
+          <div class="proj-outcomes">
+            <h4>Key Outcomes</h4>
+            <ul>
+              <li>Implemented real-time hand tracking for drawing, erasing, and color selection.</li>
+              <li>Achieved smooth, responsive performance through optimized video processing.</li>
+              <li>Enabled fully touchless user interaction.</li>
+            </ul>
+          </div>
+          <div class="proj-tags">
+            <span>Python</span><span>OpenCV</span><span>MediaPipe</span>
+          </div>
+        </div>
+
+        <!-- P3 -->
+        <div class="proj-card card-light reveal" data-category="extension">
+          <div class="proj-top">
+            <span class="proj-type"><i class="fa-brands fa-chrome"></i> Chrome Extension</span>
+            <span>2025</span>
+          </div>
+          <h3 class="proj-title">YouTube Timestamp Bookmark Extension</h3>
+          <p class="proj-desc">A Chrome extension that lets users bookmark timestamps while watching YouTube videos, making it easy to save and organize key moments.</p>
+          <div class="proj-outcomes">
+            <h4>Key Outcomes</h4>
+            <ul>
+              <li>Enabled one-click timestamp saving with automatic title and URL capture.</li>
+              <li>Built a clean popup UI to view and manage all saved timestamps.</li>
+              <li>Added delete functionality for easy list management.</li>
+              <li>Ensured Manifest V3 compatibility.</li>
+            </ul>
+          </div>
+          <div class="proj-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Chrome APIs</span>
+          </div>
+        </div>
+
+        <!-- P4 -->
+        <div class="proj-card card-light reveal" data-category="fullstack">
+          <div class="proj-top">
+            <span class="proj-type"><i class="fa-solid fa-file-invoice"></i> Web Application</span>
+            <span>2025</span>
+          </div>
+          <h3 class="proj-title">Resume Builder</h3>
+          <p class="proj-desc">A smart, interactive resume builder with real-time preview, allowing users to create professional resumes and export them as ready-to-use PDFs.</p>
+          <div class="proj-outcomes">
+            <h4>Key Outcomes</h4>
+            <ul>
+              <li>Built a dynamic real-time preview that updates instantly.</li>
+              <li>Implemented PDF export for ready-to-use resume downloads.</li>
+              <li>Designed a clean, responsive, and modern layout across devices.</li>
+            </ul>
+          </div>
+          <div class="proj-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <!-- P5 -->
+        <div class="proj-card card-light reveal" data-category="analytics">
+          <div class="proj-top">
+            <span class="proj-type"><i class="fa-solid fa-server"></i> Cloud Infrastructure</span>
+            <span>2025</span>
+          </div>
+          <h3 class="proj-title">Automated Cloud Deployment & Monitoring Pipeline</h3>
+          <p class="proj-desc">A DevOps project showcasing automated infrastructure provisioning and deployment on AWS using Terraform, Docker, and GitHub Actions CI/CD.</p>
+          <div class="proj-outcomes">
+            <h4>Key Outcomes</h4>
+            <ul>
+              <li>Provisioned secure VPC infrastructure using Terraform.</li>
+              <li>Automated Docker container builds and ECR pushing via GitHub Actions.</li>
+              <li>Configured ECS Fargate clusters for Node.js backend hosting.</li>
+            </ul>
+          </div>
+          <div class="proj-tags">
+            <span>AWS (ECS/EC2)</span><span>Terraform</span><span>Docker</span><span>CI/CD</span>
+          </div>
+        </div>
+
+        <!-- P6 -->
+        <div class="proj-card card-light reveal" data-category="analytics">
+          <div class="proj-top">
+            <span class="proj-type"><i class="fa-solid fa-chart-pie"></i> Data Analytics</span>
+            <span>2025</span>
+          </div>
+          <h3 class="proj-title">E-Commerce Customer Insights & Sales Dashboard</h3>
+          <p class="proj-desc">A comprehensive data analytics pipeline that ingests raw transaction data, analyzes customer behavior in Python, and presents interactive dashboards in Power BI.</p>
+          <div class="proj-outcomes">
+            <h4>Key Outcomes</h4>
+            <ul>
+              <li>Conducted RFM segmentation using Python Pandas.</li>
+              <li>Designed high-fidelity interactive reports using Power BI and DAX.</li>
+              <li>Identified key sales trends and churn risk metrics for stakeholders.</li>
+            </ul>
+          </div>
+          <div class="proj-tags">
+            <span>Python (Pandas)</span><span>Power BI</span><span>SQL</span><span>Data Modeling</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── 7. SKILLS ───────────────────────────────────────── -->
+  <section id="skills" class="dark-section section-pad">
+    <div class="container">
+      <h2 class="section-title reveal">Skills & Expertise</h2>
+      <div class="skills-grid">
+
+        <!-- Cat 1 -->
+        <div class="card-dark skill-cat-card reveal">
+          <h3><i class="fa-solid fa-terminal"></i> Programming Languages</h3>
+          <div class="skill-items">
+            <div class="skill-item"><div class="skill-row-info"><span>Python</span><span>90%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="90%"></div></div></div>
+            <div class="skill-item"><div class="skill-row-info"><span>HTML & CSS</span><span>85%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="85%"></div></div></div>
+            <div class="skill-item"><div class="skill-row-info"><span>JavaScript</span><span>80%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80%"></div></div></div>
+            <div class="skill-item"><div class="skill-row-info"><span>SQL</span><span>80%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80%"></div></div></div>
+            <div class="skill-item"><div class="skill-row-info"><span>Java</span><span>75%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="75%"></div></div></div>
+          </div>
+        </div>
+
+        <!-- Cat 2 -->
+        <div class="card-dark skill-cat-card reveal">
+          <h3><i class="fa-solid fa-laptop-code"></i> Web & Backend</h3>
+          <div class="skill-items">
+            <div class="skill-item"><div class="skill-row-info"><span>React.js</span><span>80%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80%"></div></div></div>
+            <div class="skill-item"><div class="skill-row-info"><span>Node.js</span><span>78%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="78%"></div></div></div>
+            <div class="skill-item"><div class="skill-row-info"><span>MongoDB</span><span>75%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="75%"></div></div></div>
+            <div class="skill-item"><div class="skill-row-info"><span>Django & Flask</span><span>72%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="72%"></div></div></div>
+            <div class="skill-item"><div class="skill-row-info"><span>FastAPI</span><span>70%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="70%"></div></div></div>
+          </div>
+        </div>
+
+        <!-- Cat 3 -->
+        <div class="card-dark skill-cat-card reveal">
+          <h3><i class="fa-solid fa-cloud-arrow-up"></i> Cloud & Analytics</h3>
+          <div class="skill-items">
+            <div class="skill-item"><div class="skill-row-info"><span>AWS</span><span>75%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="75%"></div></div></div>
+            <div class="skill-item"><div class="skill-row-info"><span>Microsoft Azure</span><span>70%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="70%"></div></div></div>
+            <div class="skill-item"><div class="skill-row-info"><span>Power BI</span><span>75%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="75%"></div></div></div>
+            <div class="skill-item"><div class="skill-row-info"><span>Tableau</span><span>72%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="72%"></div></div></div>
+            <div class="skill-item"><div class="skill-row-info"><span>Microsoft Excel</span><span>85%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="85%"></div></div></div>
+          </div>
+        </div>
+
+        <!-- Cat 4 -->
+        <div class="card-dark skill-cat-card reveal">
+          <h3><i class="fa-solid fa-cubes"></i> Core CS & Tools</h3>
+          <div class="skill-items">
+            <div class="skill-item"><div class="skill-row-info"><span>OOP</span><span>82%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="82%"></div></div></div>
+            <div class="skill-item"><div class="skill-row-info"><span>DSA</span><span>80%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80%"></div></div></div>
+            <div class="skill-item"><div class="skill-row-info"><span>Git & GitHub</span><span>80%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80%"></div></div></div>
+            <div class="skill-item"><div class="skill-row-info"><span>DBMS</span><span>78%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="78%"></div></div></div>
+            <div class="skill-item"><div class="skill-row-info"><span>Postman</span><span>75%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="75%"></div></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── 8. CERTIFICATIONS ────────────────────────────────── -->
+  <section id="certifications" class="light-section section-pad">
+    <div class="container">
+      <h2 class="section-title reveal">Certifications</h2>
+      <div class="certs-grid">
+
+        <div class="cert-card card-light reveal">
+          <div class="cert-icon"><i class="fa-brands fa-aws"></i></div>
+          <h3 class="cert-name">AWS SimuLearn: Cloud Computing Essentials</h3>
+          <p class="cert-provider">Provider: Amazon Web Services</p>
+          <button class="btn-view-cert" data-src="certificate/aws_certificate.jpg" data-title="AWS SimuLearn: Cloud Computing Essentials">
+            View Certificate <i class="fa-regular fa-image"></i>
+          </button>
+        </div>
+
+        <div class="cert-card card-light reveal">
+          <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+          <h3 class="cert-name">NPTEL/SWAYAM: Programming in Python</h3>
+          <p class="cert-provider">Provider: NPTEL (Dibrugarh University)</p>
+          <button class="btn-view-cert" data-src="certificate/python_nptel_certificate.jpg" data-title="NPTEL/SWAYAM: Programming in Python">
+            View Certificate <i class="fa-regular fa-image"></i>
+          </button>
+        </div>
+
+        <div class="cert-card card-light reveal">
+          <div class="cert-icon"><i class="fa-solid fa-network-wired"></i></div>
+          <h3 class="cert-name">NPTEL: Introduction to Internet of Things</h3>
+          <p class="cert-provider">Provider: NPTEL (IIT Kharagpur)</p>
+          <button class="btn-view-cert" data-src="certificate/iot_nptel_certificate.jpg" data-title="NPTEL: Introduction to Internet of Things">
+            View Certificate <i class="fa-regular fa-image"></i>
+          </button>
+        </div>
+
+        <div class="cert-card card-light reveal">
+          <div class="cert-icon"><i class="fa-solid fa-chart-simple"></i></div>
+          <h3 class="cert-name">Udemy: Master in Data Analysis and Analytics</h3>
+          <p class="cert-provider">Provider: Udemy</p>
+          <button class="btn-view-cert" data-src="certificate/udemy_data_analytics_certificate.jpg" data-title="Udemy: Master in Data Analysis and Analytics">
+            View Certificate <i class="fa-regular fa-image"></i>
+          </button>
+        </div>
+
+        <div class="cert-card card-light reveal">
+          <div class="cert-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3 class="cert-name">Deloitte: Cyber Job Simulation</h3>
+          <p class="cert-provider">Provider: Deloitte (Forage)</p>
+          <button class="btn-view-cert" data-src="certificate/deloitte_cyber_certificate.jpg" data-title="Deloitte: Cyber Job Simulation">
+            View Certificate <i class="fa-regular fa-image"></i>
+          </button>
+        </div>
+
+        <div class="cert-card card-light reveal">
+          <div class="cert-icon"><i class="fa-solid fa-microchip"></i></div>
+          <h3 class="cert-name">Deloitte: Technology Job Simulation</h3>
+          <p class="cert-provider">Provider: Deloitte (Forage)</p>
+          <button class="btn-view-cert" data-src="certificate/deloitte_tech_certificate.jpg" data-title="Deloitte: Technology Job Simulation">
+            View Certificate <i class="fa-regular fa-image"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── 9. ACHIEVEMENTS ──────────────────────────────────── -->
+  <section id="achievements" class="dark-section section-pad">
+    <div class="container">
+      <h2 class="section-title reveal">Achievements</h2>
+      <p class="section-subtitle reveal">Milestones from academics, internships, and leadership roles</p>
+      <div class="stats-row">
+        <div class="card-dark stat-card reveal"><div class="stat-num" data-target="6">0</div><div class="stat-lbl">Certifications</div></div>
+        <div class="card-dark stat-card reveal"><div class="stat-num" data-target="6">0</div><div class="stat-lbl">Projects Built</div></div>
+        <div class="card-dark stat-card reveal"><div class="stat-num" data-target="1">0</div><div class="stat-lbl">Major Awards</div></div>
+      </div>
+      <div class="ach-cards">
+
+        <div class="card-dark reveal">
+          <div class="ach-card-top">
+            <span class="badge badge-amber">Academic</span>
+            <span class="ach-year"><i class="fa-regular fa-calendar"></i> 2023–2026</span>
+          </div>
+          <h3 class="ach-title">B.Tech CGPA 8.18</h3>
+          <h4 class="ach-inst">Sanjeevan Group of Institutions, Panhala</h4>
+          <p class="ach-desc">Maintained a strong academic record of 8.18 CGPA throughout the Computer Science Engineering program while actively building real-world projects.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── 10. CONTACT ─────────────────────────────────────── -->
+  <section id="contact" class="light-section section-pad">
+    <div class="container">
+      <h2 class="section-title reveal">Let's Connect</h2>
+      <div class="contact-grid">
+
+        <!-- Form -->
+        <div class="contact-form-wrap card-light reveal">
+          <h3>Send a Message</h3>
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-field">
+              <label for="c-name">Full Name</label>
+              <input type="text" id="c-name" name="name" placeholder="John Doe" required>
+            </div>
+            <div class="form-field">
+              <label for="c-email">Email Address</label>
+              <input type="email" id="c-email" name="email" placeholder="john@example.com" required>
+            </div>
+            <div class="form-field">
+              <label for="c-subject">Subject</label>
+              <input type="text" id="c-subject" name="subject" placeholder="Project Inquiry / Opportunity" required>
+            </div>
+            <div class="form-field">
+              <label for="c-message">Message</label>
+              <textarea id="c-message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-amber btn-block" id="form-btn">
+              Send Message <i class="fa-regular fa-paper-plane"></i>
+            </button>
+          </form>
+          <div class="form-msg" id="form-msg"></div>
+        </div>
+
+        <!-- Info -->
+        <div class="contact-info-wrap card-light reveal">
+          <h3>Contact Info</h3>
+          <p style="font-size:0.9rem;color:var(--text-l-secondary);margin-bottom:2rem;">Feel free to reach out directly or connect via social platforms.</p>
+          <div class="info-items">
+            <div class="info-row">
+              <div class="info-ico"><i class="fa-regular fa-envelope"></i></div>
+              <div class="info-detail">
+                <span>Email</span>
+                <a href="mailto:mrunalipatil9650@gmail.com">mrunalipatil9650@gmail.com</a>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info-ico"><i class="fa-solid fa-phone"></i></div>
+              <div class="info-detail">
+                <span>Phone</span>
+                <a href="tel:+918806771458">+91 8806771458</a>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info-ico"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="info-detail">
+                <span>LinkedIn</span>
+                <a href="https://linkedin.com/in/mrunali-patil-157168250" target="_blank">linkedin.com/in/mrunali-patil-157168250</a>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info-ico"><i class="fa-brands fa-github"></i></div>
+              <div class="info-detail">
+                <span>GitHub</span>
+                <a href="https://github.com/mrunali570" target="_blank">github.com/mrunali570</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ──────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo">M<span>P</span></a>
+      <p class="footer-tagline">"Building clean code and clear insights — one project at a time."</p>
+      <p class="footer-copy">&copy; 2026 <span>Mrunali Patil</span>. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ─── LIGHTBOX MODAL ───────────────────────────────────── -->
+  <div id="cert-modal" class="modal-overlay">
+    <span class="modal-close" id="modal-close">&times;</span>
+    <div class="modal-box">
+      <img id="modal-img" src="" alt="Certificate">
+      <h3 id="modal-title"></h3>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
